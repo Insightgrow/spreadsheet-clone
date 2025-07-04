@@ -21,6 +21,22 @@ A simple static React prototype that mimics a spreadsheet-style user interface. 
 - Vite
 - TypeScript
 - Tailwind CSS
+  Setup
+
+1. Clone the repo:
+   - git clone https://github.com/Insightgrow/spreadsheet-clone.git
+   - cd spreadsheet-clone
+2. Install dependencies:
+   - npm install
+3. Run the app:
+   - npm run dev
+4. Open browser at: http://localhost:5173
+
+## Trade-offs
+  - react-table was not used due to version conflicts with React 19.
+  - Data is hardcoded and static (no dynamic editing or CSV upload).
+  - Focused only on layout and basic UI functionality.
+  - Styling is done with Tailwind CSS directly, no reusable components yet.
 
 
 
